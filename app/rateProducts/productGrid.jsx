@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Product from './product.jsx';
+import ProductDetails from './productDetails.jsx';
 
 var ProductGrid = React.createClass({
     render: function() {
         return(
             <div className="row product-row">
-                <Product/>
+                <ProductDetails/>
             </div>
         )
     }
