@@ -24,3 +24,5 @@ var Counter = React.createClass({
 });
 
 ReactDOM.render(<Counter/>, document.getElementById('app'));
+
+module.exports = Counter;
